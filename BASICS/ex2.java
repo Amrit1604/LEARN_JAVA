@@ -13,5 +13,4 @@ public class ex2 {
                 System.out.println("Sum of array elements: " + sum);
 
     }
-    // FREE MSG sssss
 }
