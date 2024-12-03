@@ -1,3 +1,4 @@
+package BASICS;
 // HOW TO PRINT A STRING IN JAVA LANG
 
 class ex {
