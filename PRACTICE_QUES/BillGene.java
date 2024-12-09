@@ -1,4 +1,4 @@
-package BASICS;
+package PRACTICE_QUES;
 
 // Tom went to a movie with his friends in a multiplex theater and during break time he bought pizzas, puffs, and cold drinks. 
 // COnsider the following prices

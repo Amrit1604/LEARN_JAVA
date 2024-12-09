@@ -1,8 +1,10 @@
-package BASICS;
+package PRACTICE_QUES;
+
+// Calculate area of a circle 
 
 import java.util.Scanner;
 
-public class circle {
+public class circleArea {
 
     static float area(float r) {
         return (float) Math.PI * r * r;
@@ -11,6 +13,7 @@ public class circle {
     static float circumference(float r) {
         return (float) (2 * Math.PI * r);
     }
+    
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
