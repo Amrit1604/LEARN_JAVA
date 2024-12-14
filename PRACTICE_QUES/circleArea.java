@@ -30,6 +30,7 @@ public class circleArea {
             System.out.printf("Area of the circle is: %.2f%n", area);
             System.out.printf("Circumference of the circle is: %.2f%n", circumference);
         }
+        sc.close();
 
        
     }
