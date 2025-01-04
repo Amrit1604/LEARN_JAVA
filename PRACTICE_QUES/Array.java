@@ -14,9 +14,9 @@
 
 // Intermediate Level
 
-// Write a program to find the second largest and second smallest elements in an array.
-// Rotate an array by a given number of positions to the left or right.
-// Merge two sorted arrays into a single sorted array.
+// 9 Write a program to find the second largest and second smallest elements in an array.
+//  10 Rotate an array by a given number of positions to the left or right.
+// 11 Merge two sorted arrays into a single sorted array also eleminate same elements.
 // Find all pairs of elements in an array whose sum is equal to a given number.
 // Write a program to remove duplicate elements from an array.
 // Find the frequency of each element in an array.
@@ -246,7 +246,37 @@ public class Array {
             System.out.println("Left array " + Arrays.toString(left));
             System.out.println("Right array " + Arrays.toString(right));
 
+
+            System.out.println();
         }
+
+// 11 merge and sort
+
+
+        static void ques11(){
+            int[] arr = {44,33,51,12,5,8};
+            int[] arr2 = {1,2,3,7,9,8,54,5,4};
+            int[] arr3 = new int[arr.length + arr2.length];
+
+            int  i = 0;
+            for(int j =0; j< arr.length; j++){
+                arr3[i] = arr[j];
+                i++;
+            }
+            for(int j = 0; j<arr2.length ; j++){
+                arr3[i] = arr2[j];
+                i++;
+            }
+            Arrays.sort(arr3);
+            System.out.println("Merged and sort array is : " + Arrays.toString(arr3));
+
+            System.out.println();
+        }
+
+
+
+    
+
 
 
 
@@ -264,9 +294,6 @@ public class Array {
         ques9();
         usinsorting();
         ques10();
+        ques11();
     }
 }
-
-
-
-
