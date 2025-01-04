@@ -274,6 +274,42 @@ public class Array {
         }
 
 
+// 12  Find all pairs of elements in an array whose sum is equal to a given number.
+            // static void ques12(){
+            //     int[] arr = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+            //     int sum = 1;
+            //     for(int i = 0 ; i < arr.length ; i++){
+            //         for(int j = i+1 ; j < arr.length ; j++){
+            //             if(arr[i] + arr[j] == sum){
+            //                 System.out.println("Pair found at index " + i + " and " + j);
+            //             }
+            //             else{
+            //                 System.out.println("Pair not found");
+            //             }
+            //         }
+            //         System.out.println();
+            //         }
+                
+            // }
+
+            static void ques12() {
+                int[] arr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+                int sum = 37;
+                boolean pairFound = false;
+            
+                for (int i = 0; i < arr.length; i++) {
+                    for (int j = i + 1; j < arr.length; j++) {
+                        if (arr[i] + arr[j] == sum) {
+                            System.out.println("Pair found at index " + i + " and " + j);
+                            pairFound = true;
+                        }
+                    }
+                }
+            
+                if (!pairFound) {
+                    System.out.println("No pairs found with the given sum.");
+                }
+            }
 
     
 
@@ -295,5 +331,6 @@ public class Array {
         usinsorting();
         ques10();
         ques11();
+        ques12();
     }
 }
