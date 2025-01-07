@@ -288,8 +288,7 @@ public class Array {
             //             }
             //         }
             //         System.out.println();
-            //         }
-                
+            //         } 
             // }
 
             static void ques12() {
@@ -310,6 +309,20 @@ public class Array {
                     System.out.println("No pairs found with the given sum.");
                 }
             }
+
+
+// 13 
+            static void ques13(){
+                int[] arr = {1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10};
+                Set<Integer> set = new HashSet<>();
+                for(int i = 0 ; i < arr.length ; i++){
+                    set.add(arr[i]);
+                }
+                System.out.println("Array with duplicates " + Arrays.toString(arr));
+                System.out.println("Array without duplicates " + set);
+
+            }
+
 
     
 
@@ -332,5 +345,6 @@ public class Array {
         ques10();
         ques11();
         ques12();
+        ques13();
     }
 }
