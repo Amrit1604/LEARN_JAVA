@@ -1,6 +1,10 @@
 package PROJECT;
 
+<<<<<<< HEAD
 import java.util.Scanner;
+=======
+import java.util.*;
+>>>>>>> eecca12 (First one)
 
 public class contacts {
     public static void displayContacts(String[] names, String[] phoneNumbers) {
@@ -17,6 +21,10 @@ public class contacts {
             }
         }
         return false;
+<<<<<<< HEAD
+=======
+        
+>>>>>>> eecca12 (First one)
     }
 
     public static void main(String[] args) {

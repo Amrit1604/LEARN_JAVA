@@ -12,7 +12,11 @@ public class String1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string:");
         String input = sc.nextLine();
+<<<<<<< HEAD
         StringBuilder reversed = new StringBuilder(input);
+=======
+        nString reversed = new StringBuilder(input);
+>>>>>>> eecca12 (First one)
         System.out.println("Reversed string using StringBuilder: " + reversed.reverse());
         sc.close();
     }

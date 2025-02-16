@@ -37,6 +37,10 @@ import java.util.*;
 public class Array {
 
 // 1
+<<<<<<< HEAD
+=======
+
+>>>>>>> eecca12 (First one)
      static void ques1(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6};
 
@@ -324,6 +328,69 @@ public class Array {
             }
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+//   find the frequency f each element in an array
+
+
+            static void ques14(){
+                int[] arr = {1,2,3,3,4,5,5,5,6,7,7,7,7,8};
+                for(int i = 0 ; i < arr.length ; i++){
+                    int count = 0;
+                    for(int j = 0 ; j < arr.length ; j++){
+                        if(arr[j] == arr[i]){
+                            count++;
+
+                    System.out.println("Frequency of " + arr[i] + " is " + count);
+                        }
+                    }
+                    }
+                }  
+
+
+    static void ques15(){
+        int[] arr = {1,2,3,4,5,6,7,8,9,10};
+        int key = 5;
+        int low = 0;
+        int high = arr.length - 1;
+        int mid = (low + high) / 2;
+        while(low <= high){
+            if(arr[mid] < key){
+                low = mid + 1;
+            }
+            else if(arr[mid] == key){
+                System.out.println("Element found at index " + mid);
+                break;
+            }
+            else{
+                high = mid - 1;
+            }
+            mid = (low + high) / 2;
+        }
+        if(low > high){
+            System.out.println("Element not found");
+        }
+    }
+
+    // day of the week 
+    static void ques16(){
+        String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+        int day = 1;
+        System.out.println("Day of the week is " + days[day-1]);
+        }
+    
+    
+
+                
+                            
+        
+
+
+>>>>>>> eecca12 (First one)
     
 
 
@@ -346,5 +413,21 @@ public class Array {
         ques11();
         ques12();
         ques13();
+<<<<<<< HEAD
     }
 }
+=======
+        ques14();
+    }
+}
+
+
+
+
+
+
+
+
+
+
+>>>>>>> eecca12 (First one)
