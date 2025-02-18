@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-
-
-=======
->>>>>>> eecca12 (First one)
 package PROJECT;
 
 import java.util.Scanner;
