@@ -4,7 +4,17 @@ package PROJECT;
 
 
 
+<<<<<<< HEAD
 import java.util.*;
+=======
+<<<<<<< HEAD
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Scanner;
+=======
+import java.util.*;
+>>>>>>> eecca12 (First one)
+>>>>>>> recovered-branch
 
 public class scores {
 

@@ -1,0 +1,60 @@
+DATA TYPES ==
+1. PRIMITIVE DATA TYPES
+Primitive data types are predefined by the language and represent simple values. They are categorized as:
+
+1. Integer Types:
+byte:
+
+Size: 1 byte (8 bits)
+Range: -128 to 127
+Example: byte age = 25;
+
+short:
+
+Size: 2 bytes (16 bits)
+Range: -32,768 to 32,767
+Example: short distance = 1500;
+
+int:
+
+Size: 4 bytes (32 bits)
+Range: -2,147,483,648 to 2,147,483,647
+Example: int salary = 50000;
+
+long:
+
+Size: 8 bytes (64 bits)
+Range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+Example: long population = 7800000000L;
+(Note: Use L to indicate a long literal.)
+2. Floating-Point Types:
+
+float:
+
+Size: 4 bytes (32 bits)
+Range: Approximately ±3.40282347E+38
+Precision: Up to 7 decimal digits
+Example: float price = 19.99F;
+(Note: Use F to indicate a float literal.)
+
+double:
+
+Size: 8 bytes (64 bits)
+Range: Approximately ±1.79769313486231570E+308
+Precision: Up to 15 decimal digits
+Example: double pi = 3.141592653589793;
+
+3. Character Type:
+
+char:
+Size: 2 bytes (16 bits)
+Represents: A single Unicode character
+Range: '\u0000' (0) to '\uffff' (65,535)
+Example: char grade = 'A';
+
+4. Boolean Type:
+
+boolean:
+Size: No precise size (depends on JVM implementation)
+Represents: true or false
+Example: boolean isJavaFun = true;

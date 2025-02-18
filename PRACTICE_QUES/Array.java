@@ -37,7 +37,14 @@ import java.util.*;
 public class Array {
 
 // 1
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> eecca12 (First one)
+>>>>>>> recovered-branch
      static void ques1(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6};
 
@@ -325,6 +332,11 @@ public class Array {
             }
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> recovered-branch
 
 
 
@@ -385,6 +397,10 @@ public class Array {
         
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> eecca12 (First one)
+>>>>>>> recovered-branch
     
 
 
@@ -407,6 +423,13 @@ public class Array {
         ques11();
         ques12();
         ques13();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    }
+}
+=======
+>>>>>>> recovered-branch
         ques14();
     }
 }
@@ -420,3 +443,7 @@ public class Array {
 
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> eecca12 (First one)
+>>>>>>> recovered-branch

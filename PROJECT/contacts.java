@@ -1,6 +1,14 @@
 package PROJECT;
 
+<<<<<<< HEAD
 import java.util.*;
+=======
+<<<<<<< HEAD
+import java.util.Scanner;
+=======
+import java.util.*;
+>>>>>>> eecca12 (First one)
+>>>>>>> recovered-branch
 
 public class contacts {
     public static void displayContacts(String[] names, String[] phoneNumbers) {
@@ -17,7 +25,14 @@ public class contacts {
             }
         }
         return false;
+<<<<<<< HEAD
         
+=======
+<<<<<<< HEAD
+=======
+        
+>>>>>>> eecca12 (First one)
+>>>>>>> recovered-branch
     }
 
     public static void main(String[] args) {
