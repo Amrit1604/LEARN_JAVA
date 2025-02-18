@@ -9,7 +9,6 @@ public class Return{
         int b = sc.nextInt();
         int sum1 = a+b;
         return sum1;   // return the sum of a and b to the main function . 
-
     }
 
     
