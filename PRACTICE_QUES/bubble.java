@@ -21,7 +21,6 @@ public class bubble {
                     swapped = true;
                 }
             }
-            // If no swapping occurred, array is already sorted
             if (!swapped) {
                 break;
             }

@@ -28,19 +28,61 @@ public class Pattern3 {
     // d E f 
     // G h I j
 
-    static void ques2(String[] args) {
+    static void ques2() {
         char ch = 'A';
         int n = 4;
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j <= i; j++) {
 
+                if(i % 2 != 0) {  
+                    System.out.print(Character.toLowerCase(ch) + " ");
+                } else {
+                    System.out.print(Character.toUpperCase(ch) + " ");
+                }
+                ch++;
+            }
+            System.out.println(); 
+
+
+
+        }
     }
+// q3
+    // A
+    // b C
+    // D e F
+    // g H i J
+
+    static void ques3() {
+        char ch = 'A';
+        int n = 4;
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j <= i; j++) {
+                if((i + j) % 2 == 0) {   // i + j = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+                    System.out.print(Character.toUpperCase(ch) + " ");
+                } else {
+                    System.out.print(Character.toLowerCase(ch) + " ");
+                }
+                ch++;
+            }
+            System.out.println();
+        }
+    }
+
+
+
+
+
+
+
  
-    // q3
+    // q4
 
     // Hello World
     // replace with "-" whereever you are getting vowels in the add positions bases on the 1st index;
     // Output = H-llo W-rld
 
-    static void ques3() {
+    static void ques4() {
         String str = "Hello World";
         String newStr = "";
         for (int i = 0; i < str.length(); i++) {
@@ -65,13 +107,13 @@ public class Pattern3 {
     }
 
 
-    //  ques4
+    //  ques5
 
     // Sorting the string 
     // Input = "Apple"
     // Output == "Aelpp"
 
-    static void ques4() {
+    static void ques5() {
         String str = "Apple";
         char[] ch = str.toCharArray();
 
@@ -90,11 +132,18 @@ public class Pattern3 {
         System.out.println(ch);
     }
 
+
+
+    // ques6
+
+
+
     public static void main(String[] args) {
-        ques1(args);
+        // ques1(args);
         // ques2();
         ques3();
-        ques4();
+        // ques4();
+        // ques5();
 
 
     }

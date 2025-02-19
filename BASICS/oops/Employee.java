@@ -39,6 +39,7 @@ public class Employee {
        this.empEx = empEx;
    }
 
+
    public static void main(String[] args) {
        Scanner scanner = new Scanner(System.in);
 
@@ -75,6 +76,68 @@ public class Employee {
            System.out.println("------------------------------");
         }
 
+
+
+        // thoes who have experience more than 5 years
+        System.out.println("Employees with more than 5 years of experience:");
+        System.out.println("------------------------------");
+        for (Employee emp : employees) {
+                if (emp.getEmpEx() > 5) {
+                    System.out.println("Employee Id: " + emp.getEmpId());
+                    System.out.println("Employee Name: " + emp.getEmpName());
+                    System.out.println("Employee Experience: " + emp.getEmpEx());
+                    System.out.println("------------------------------");
+                }
+            }
+
+            // print the experience values in descending order
+            System.out.println("Experience values in descending order:");
+            for (int i = 0; i < employees.length; i++) {
+                for (int j = i + 1; j < employees.length; j++) {
+                    if (employees[i].getEmpEx() < employees[j].getEmpEx()) {
+                        Employee temp = employees[i];
+                        employees[i] = employees[j];
+                        employees[j] = temp;
+                    }
+                }
+
+            }
+
+            System.out.println("------------------------------");
+
+
+
+
+            // print the experience values in descending order
+            for (Employee emp : employees) {   // 
+                System.out.println("Employee Experience: " + emp.getEmpEx());
+            }
+
+
+            // print the 2nd highest experience value without sorting
+            int max = Integer.MIN_VALUE;
+            int Smax = Integer.MIN_VALUE;
+
+
+
+            for (int i = 0; i < employees.length; i++){  
+                if (employees[i].getEmpEx() > max) {
+                    Smax = max;
+                    max = employees[i].getEmpEx();
+
+
+                } else if (employees[i].getEmpEx() > Smax && employees[i].getEmpEx() != max) {
+
+                    Smax = employees[i].getEmpEx();
+                }
+            }
+            System.out.println("Second highest experience value: " + Smax);
+
+                
+
        scanner.close();
    }
-}
+
+   }
+
+
