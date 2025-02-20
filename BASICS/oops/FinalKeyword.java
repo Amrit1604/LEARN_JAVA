@@ -12,6 +12,8 @@ public class FinalKeyword {
         class Animal {
             final void eat() {
                 System.out.println("eating...");
+
+                
             }
         }
 
@@ -20,6 +22,11 @@ public class FinalKeyword {
             // System.out.println("eating bread...");
             // }
         }
+
+        
+        // inherite the final method to make it work 
+        
+        
 
         // 3. Final class
         final class Bike {
@@ -34,6 +41,6 @@ public class FinalKeyword {
 
 
 
-    
+
 
 }
