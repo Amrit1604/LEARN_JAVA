@@ -14,7 +14,7 @@ public class Withoutsorting {
         for (int i = 0; i < arr.length; i++) {
 
             if (arr[i] > max) {
-
+                
                 Smax = max;
                 max = arr[i];
             } 

@@ -2,11 +2,13 @@ package BASICS.oops;
 
 public class FinalKeyword {
     public static void main(String[] args) {
-            // 1. Final variable
+        // 1. Final variable
 
         final int x = 10;
         // x = 20; // Error: cannot assign a value to final variable x
         System.out.println(x);
+
+
 
         // 2. Final method
         class Animal {
