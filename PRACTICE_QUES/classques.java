@@ -72,6 +72,14 @@ public class classques {
 
         // without using permute
 
+        static void swap(){
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Enter a string: ");
+            String str = sc.next();
+            sc.close();
+            
+        }
+
         static void permute(String str, int l, int r) {
             if (l == r) {
                 System.out.println(str);

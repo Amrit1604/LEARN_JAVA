@@ -1,3 +1,5 @@
+package PRACTICE_QUES;
+
 public class BlockEx {
     int a;
     String b;

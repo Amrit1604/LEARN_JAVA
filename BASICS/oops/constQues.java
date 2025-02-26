@@ -1,4 +1,4 @@
-package oops;
+package BASICS.oops;
 
 public class constQues {
      // Output a single line containing "Yes" based on the conditions given and "No otherwise"
@@ -22,4 +22,5 @@ public class constQues {
 
     public static void main(String[] args) {
     
+}
 }

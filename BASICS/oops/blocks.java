@@ -1,4 +1,4 @@
-package oops;
+package BASICS.oops;
 
 public class blocks {
     blocks(){
